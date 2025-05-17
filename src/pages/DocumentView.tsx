@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
-import type { IDocument } from "../types";
+import { Bounce, toast } from "react-toastify";
 
+import type { IDocument } from "../types";
 import PDFViewer from "../components/PDFViewer";
 import { deleteDocument } from "../utils/storage";
-import { Bounce, toast } from "react-toastify";
 
 const pdfContentType = "application/pdf";
 

@@ -1,6 +1,7 @@
-import pdfIcon from "../assets/pdf_icon.png";
 import type { IDocument } from "../types";
 import { truncateString } from "../utils/truncateString";
+
+import pdfIcon from "../assets/pdf_icon.png";
 
 interface Props {
   data: IDocument;

@@ -1,6 +1,7 @@
+import { useEffect, useState } from "react";
+
 import HistoryList from "../components/HistoryList";
 import EmptyHistory from "../components/EmptyHistory";
-import { useEffect, useState } from "react";
 import type { IDocument } from "../types";
 import { clearStorage } from "../utils/storage";
 

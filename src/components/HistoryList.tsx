@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+
 import Document from "./Document";
 import type { IDocument } from "../types";
 
